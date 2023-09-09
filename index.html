@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie App</title>
+</head>
+
+<body>
+
+
+    <div class="loading">
+        <span class="loader"></span>
+    </div>
+
+
+<div id="sideBar"> 
+    <div class="sideBar-inner text-white ">
+        <div class="menu ">
+            <ul class="linksInMenu ">
+                <li id="nowPlaying" class="cc"><a attr="nowPlaying">Now playing</a></li>
+                <li id="popular" class="cc"><a attr="popular">Popular</a></li>
+                <li id="topRated" class="cc"><a attr="topRated">Top Rated</a></li>
+                <li id="trending" class="cc"><a attr="trending">Trending</a></li>
+                <li id="upcoming" class="cc"><a attr="upcoming">Upcoming</a></li>
+                <li class="cc"><a id="contactB" section="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="copyrights ">
+            <div class="rights-social ">
+                <a href="#"><i class="fa-brands fa-facebook-f links4"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter links4"></i></a>
+                <a href="#"><i class="fa-solid fa-globe links4"></i></a>
+            </div>
+            <p class="pt-3">Copyright © 2022 All Rights Reserved. <br>Created by <a href="https://github.com/kamal-mohamed01" class="link-danger fw-bold" target="_blank">Kamal Mohamed</a></p>
+        </div>
+    </div>
+
+<div class="lg-bar position-relative bg-light"> 
+    <h1>    
+        <img class="img" src="img/logo.png" alt="">
+    </h1>
+    <h1 class="point">
+        <i id="openBar" class="lins fa-solid fa-align-justify fa-2xs"></i>
+        <i id="closeBar" class="lins fa-solid fa-xmark fa-2xs"></i>
+    </h1>
+    <div class="icons">
+        <h3 class="icon-start"><i class="fa-solid fa-globe fa-2xs"></i></h3>
+        <h3 class="icon-start2"> <i class="fa-solid  fa-share-nodes fa-2xs"></i></h3>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<div id="btnUp" class=" bg-black p-3  text-white">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+    <section id="search-bar" class="container py-5">
+        <input id="search" type="search" placeholder="Search" class="form-control text-white w-50 mx-auto bg-transparent rounded-pill  shadow-none border-white px-3">
+            <div class="row g-4 mt-3 text-white">
+
+    </section>
+
+    <section>
+        <div  id="evenScroll" class="container py-5 ">
+            <div id="rowData" class="row  gx-3 gy-5 ">
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="container text-white py-5">
+        <h2>Contact US</h2>
+        <form>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <input type="text" required id="name" maxlength="37" class="form-control bg-transparent text-white border-top-0 border-end-0 border-start-0 mt-4" placeholder="Enter Your Name">
+                    <span Class="error" class="animate__animated"><img src="" alt=""></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" required id="email"  class=" form-control mt-4 bg-transparent text-white border-top-0 border-end-0 border-start-0" placeholder="Enter Your Email">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="number"required id="phone" class=" form-control mt-4 bg-transparent text-white border-top-0 border-end-0 border-start-0" placeholder="Enter Your Phone">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="number"required id="age"  class="form-control mt-4 bg-transparent text-white border-top-0 border-end-0 border-start-0" placeholder="Enter Your Age">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <input type="password" required id="password" class="form-control mt-4 bg-transparent text-white border-top-0 border-end-0 border-start-0" placeholder="Enter Your Password">
+                    <span Class="error" class="animate__animated"></span>
+                    <span class="showPass"><i data-show="show" class="fa-solid fa-eye-slash "></i></span>
+                </div>
+                <div class="col-md-6">
+                    <input type="password"required id="repassword" class=" form-control mt-4 bg-transparent text-white border-top-0 border-end-0 border-start-0" placeholder="ReEnter Password">
+                    <span Class="error" class="animate__animated"></span>
+                </div>
+                <div class="col-md-12  mt-4">
+                    <button type="submit" class="form-btn btn btn-outline-light rounded-2 mb-3 animate__animated f">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
+
+
+

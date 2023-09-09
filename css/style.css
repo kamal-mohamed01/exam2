@@ -1,0 +1,270 @@
+
+body{
+    background-color: #0D0D0D;
+    overflow: hidden;
+}
+
+
+.wow-wihet{
+    color: #ffffff !important;
+    
+    
+}
+
+#btnUp{
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    display: none;
+}
+.item-caption {
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+
+
+.item h1{
+    text-align: center;
+    font-size: 25px;
+}
+.item img{
+    border-radius: 3%;
+}
+
+.ronud{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+
+.form-btn {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px 25px;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+
+.form-btn :hover{
+    color: #000 !important;
+}
+
+#sideBar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99999999;
+    display: flex;
+    left: 0px;
+    
+    overflow: hidden;
+    /* align-items: flex-start; */
+}
+
+.sideBar-inner{
+
+    background-color: #000;
+	width: 250px;
+	z-index: 99999;
+	padding: 0 30px;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out; 
+
+}
+
+
+.img{
+    height: 70px;
+    transform: translateY(10px);
+    padding: 9px;
+}
+#sideBar .lins{
+
+    background-color: transparent;
+    color: black;
+    padding: 15px;
+    position: fixed;
+    top: 45%;
+}
+.links4{
+    background-color: transparent;
+    color: rgb(255, 252, 252);
+}
+.icons{
+    display: flex;
+    padding: 20px;
+    width: 4%;
+    height: 100px;
+    position: absolute;
+    bottom: 5% ;
+    left:18px;
+   
+}
+
+
+
+.icon-start{
+    position: absolute;
+    top: 25px;
+    left: 7px;
+    display: flex;
+    align-self: flex-start;
+    
+}
+.icon-start2{
+    position: absolute;
+    bottom:  30px;
+    left: 7px;
+    display: flex;
+    align-self: flex-start;
+}
+
+
+
+.menu ul li a
+{
+    
+    color: #f1f1f1!important;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.point{
+    cursor: pointer;
+}
+.menu ul li a:hover
+{
+    color: #ff655c!important;
+}
+.linksInMenu{
+    height: auto;
+    padding: 10px;
+    margin: auto;
+}
+
+#openBar{
+    display: block;
+}
+#closeBar{
+    display: none;
+
+}
+.linksInMenu li{
+    padding: 10px ;
+    margin-right: 20px;
+    transform: translateX(-30px);
+}
+.linksInMenu li {
+display: none;
+}
+
+#sideBar .menu{
+    position: relative;
+    padding: 10px;
+    top: 2%;
+    height: auto;
+}
+#sideBar .copyrights{
+    position: fixed;
+    width: 220px;
+    bottom:5%;
+    
+}
+a, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.rights-social{
+    width: 38%;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.hite{
+    
+    height: 500px;
+}
+
+
+.loading
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 9999999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #FFF;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+} 
+
+
+
+.showPass
+{
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.lg-bar{
+    padding: 5px;
+}
+
+
+
+
+
